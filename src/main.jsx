@@ -17,37 +17,37 @@ const products = [
 name: "Nic Nic 4L Jar",
 note: "Dummy product detail",
 price: "$4.50",
-image: "/assets/products/nic-nic-4l.png",
+image: "assets/products/nic-nic-4l.png",
 },
 {
 name: "Lapchiong Madu",
 note: "Dummy product detail",
 price: "$5.00",
-image: "/assets/products/nic-nic-lapchiong-madu.png",
+image: "assets/products/nic-nic-lapchiong-madu.png",
 },
 {
 name: "Rasa Mix Jar",
 note: "Dummy product detail",
 price: "$3.80",
-image: "/assets/products/nic-nic-rasa.png",
+image: "assets/products/nic-nic-rasa.png",
 },
 {
 name: "Samcan Premium",
 note: "Dummy product detail",
 price: "$4.20",
-image: "/assets/products/nic-nic-samcan-premium.png",
+image: "assets/products/nic-nic-samcan-premium.png",
 },
 {
 name: "Nic Nic 2L Jar",
 note: "Dummy product detail",
 price: "$4.90",
-image: "/assets/products/nicnic-2l.png",
+image: "assets/products/nicnic-2l.png",
 },
 {
 name: "Nic Nic 250g Pack",
 note: "Dummy product detail",
 price: "$12.00",
-image: "/assets/products/nicnic-250gram.png",
+image: "assets/products/nicnic-250gram.png",
 },
 ];
 
@@ -106,7 +106,7 @@ Chat to order <MessageCircle size={18} />
 
 <div className="hero-board" aria-label="Featured snack preview">
 <div className="hero-frame">
-<img src="/assets/products/nic-nic-4l.png" alt="Nic Nic product display" />
+<img src="assets/products/nic-nic-4l.png" alt="Nic Nic product display" />
 </div>
 </div>
 </section>
