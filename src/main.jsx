@@ -142,9 +142,6 @@ Dummy promo detail: get a free mini pack for selected orders this
 week. Use this area for rules, expiry date, or bundle conditions.
 </p>*/}
 </div>
-<a className="primary-button compact" href="#order">
-Check it out! <ArrowRight size={18} />
-</a>
 </section>
 
 <section className="order-section" id="order">
