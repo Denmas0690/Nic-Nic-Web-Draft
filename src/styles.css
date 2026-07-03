@@ -342,6 +342,7 @@ padding: 78px 0 32px;
 }
 
 .order-panel {
+display: block;
 padding: 42px;
 border: 1px solid rgba(36, 32, 27, 0.12);
 border-radius: 8px;
@@ -399,6 +400,7 @@ justify-content: flex-start;
 width: 100%;
 color: #ffffff;
 }
+
 
 .studio-credit p {
 margin: 0;
