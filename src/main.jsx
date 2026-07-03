@@ -14,39 +14,39 @@ import "./styles.css";
 
 const products = [
 {
-name: "Nic Nic 4L Jar",
-note: "Dummy product detail",
-price: "$4.50",
+name: "Kerupuk Babi 4 Liter",
+/* note: "Dummy product detail", */
+/* price: "$4.50", */
 image: "assets/products/nic-nic-4l.png",
 },
 {
-name: "Lapchiong Madu",
-note: "Dummy product detail",
-price: "$5.00",
+name: "Lapchiong Madu 500 Gram",
+/* note: "Dummy product detail", */
+/* price: "$5.00", */
 image: "assets/products/nic-nic-lapchiong-madu.png",
 },
 {
-name: "Rasa Mix Jar",
-note: "Dummy product detail",
-price: "$3.80",
+name: "Kerupuk Babi Aneka Rasa",
+/* note: "Dummy product detail", */
+/* price: "$3.80", */
 image: "assets/products/nic-nic-rasa.png",
 },
 {
-name: "Samcan Premium",
-note: "Dummy product detail",
-price: "$4.20",
+name: "Kerupuk Babi Samcan Premium",
+/* note: "Dummy product detail", */
+/* price: "$4.20", */
 image: "assets/products/nic-nic-samcan-premium.png",
 },
 {
-name: "Nic Nic 2L Jar",
-note: "Dummy product detail",
-price: "$4.90",
+name: "Kerupuk Babi 2 Liter",
+/* note: "Dummy product detail", */
+/* price: "$4.90", */
 image: "assets/products/nicnic-2l.png",
 },
 {
-name: "Nic Nic 250g Pack",
-note: "Dummy product detail",
-price: "$12.00",
+name: "Kerupuk Babi 250 Gram",
+/* note: "Dummy product detail", */
+/* price: "$12.00", */
 image: "assets/products/nicnic-250gram.png",
 },
 ];
@@ -74,7 +74,7 @@ return (
 <header className="site-header">
 <a className="brand" href="#top" aria-label="Snack Pop home">
 <ShoppingBag size={22} />
-<span>Snack Pop</span>
+<span>Kerupuk Babi Nic Nic</span>
 </a>
 <nav aria-label="Main navigation">
 <a href="#menu">Menu</a>
@@ -87,19 +87,15 @@ return (
 <div className="hero-copy">
 <div className="promo-pill">
 <BadgePercent size={18} />
-<span>FREE mini snack for first order</span>
+<span>Free Ongkir & Diskon</span>
 </div>
-<h1>Crunchy snacks for sharing & quality time.</h1>
+<h1>Snack crunchy untuk berbagi & quality time</h1>
 <p>
-Dummy intro copy for the client preview. Replace this with a short
-brand promise, favorite flavors, or a simple local delivery message.
+Kriuk nikmat disetiap gigitan!
 </p>
 <div className="hero-actions">
 <a className="primary-button" href="#menu">
 View menu <ArrowRight size={18} />
-</a>
-<a className="ghost-button" href="#order">
-Chat to order <MessageCircle size={18} />
 </a>
 </div>
 </div>
@@ -114,21 +110,21 @@ Chat to order <MessageCircle size={18} />
 <section className="trust-row" aria-label="Service highlights">
 <div>
 <Clock3 size={20} />
-<span>Fresh daily</span>
+<span>Fresh setiap hari</span>
 </div>
 <div>
 <PackageCheck size={20} />
-<span>Neat packaging</span>
+<span>Packaging rapi</span>
 </div>
 <div>
 <BadgePercent size={20} />
-<span>Promo-ready</span>
+<span>Promo</span>
 </div>
 </section>
 
 <section className="menu-section" id="menu">
 <div className="section-heading">
-<h2>Six product slots ready for real photos.</h2>
+<h2>Best Seller</h2>
 </div>
 <div className="product-grid">
 {products.map((product) => (
@@ -139,44 +135,56 @@ Chat to order <MessageCircle size={18} />
 
 <section className="promo-section" id="promo">
 <div>
-<p className="eyebrow">Client hook</p>
-<h2>FREE promo area</h2>
-<p>
+<p className="eyebrow">Hanya untuk kamu!</p>
+<h2>Jangan lewatkan daily PROMO untuk anda!</h2>
+{/*<p>
 Dummy promo detail: get a free mini pack for selected orders this
 week. Use this area for rules, expiry date, or bundle conditions.
-</p>
+</p>*/}
 </div>
 <a className="primary-button compact" href="#order">
-Claim promo <ArrowRight size={18} />
+Check it out! <ArrowRight size={18} />
 </a>
 </section>
 
 <section className="order-section" id="order">
 <div className="section-heading">
-<h2>Make the next step obvious.</h2>
+<h2>Check sekarang juga!</h2>
 </div>
 <div className="order-panel">
-<div>
 <h3>Order by chat</h3>
 <p>
-Dummy contact copy. Add WhatsApp, Instagram DM, delivery area,
-pickup time, and payment notes here.
+Online shop kami lengkap lho!
 </p>
-</div>
 <div className="order-buttons">
-<a href="https://wa.me/" className="ghost-button">
-<MessageCircle size={18} /> WhatsApp
+<a href="https://wa.me/6281238175025?text=Halo Nic Nic, saya mau order dong!" aria-label="Order via WhatsApp">
+<MessageCircle size={22} />
+WhatsApp
 </a>
-<a href="https://instagram.com/" className="ghost-button">
-<Instagram size={18} /> Instagram
+<a href="https://www.instagram.com/kerupukbabinicnic?igsh=Y2Roa2M1d2UzNzQ2" aria-label="Order via Instagram">
+<Instagram size={22} />
+Instagram
 </a>
-<a href="https://shopee.com/" className="ghost-button">
-<ShoppingBag size={18} /> Shopee
+<a href="https://id.shp.ee/hT5bh8tE" aria-label="Order via Shopee">
+<ShoppingBag size={22} />
+Shopee
 </a>
-<a href="https://www.tiktok.com/" className="ghost-button">
-<Music2 size={18} /> TikTok
+<a href="https://tk.tokopedia.com/ZSCxLvqw1/" aria-label="Order via Tokopedia">
+<ShoppingBag size={22} />
+Tokopedia
+</a>
+<a href="https://www.tiktok.com/@meistore88?_r=1&_t=ZS-97h6l3F1Tkd" aria-label="View TikTok">
+<Music2 size={22} />
+TikTok
 </a>
 </div>
+</div>
+</section>
+
+<section className="studio-credit" aria-label="Website credit">
+<div className="studio-credit-inner">
+<p><span>Website by </span>{""}
+<a href="https://boldstudio.online/" target="_blank" rel="noreferrer">BOLD Studio Team</a></p>
 </div>
 </section>
 </main>
